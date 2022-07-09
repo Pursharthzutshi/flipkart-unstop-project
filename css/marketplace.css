@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(to left, rgb(20, 0, 71), rgb(1, 4, 61));
+    color: white;
+    font-family: "Montserrat";
+    padding: 30px;
+}
+
+.marketplace-container,
+.rate-div,
+.marketplace-heading-row {
+    display: flex;
+}
+
+.marketplace-container,
+.marketplace-heading-row {
+    flex-direction: row;
+}
+
+.line {
+    width: 100%;
+    height: .1rem;
+    background: white;
+}
+
+.marketplace-container {
+    margin-left: 8px;
+    margin-top: 10px;
+    width: 92%;
+    background: linear-gradient(rgb(12, 0, 42), rgb(15, 1, 51));
+    box-shadow: .2px .2px 4px .2px black;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 38px;
+}
+
+.marketplace-container:nth-child(1) {
+    height: 35rem;
+}
+
+.marketplace-container:nth-child(2) {
+    height: 10rem;
+}
+
+.marketplace-div {
+    width: 13rem;
+    height: 15rem;
+    background: rgb(0, 0, 58);
+    padding: 2px 2px 2px 32px;
+    border: 2px solid white;
+}
+
+.marketplace-div img {
+    width: 6rem;
+    height: auto;
+}
+
+.rate-div p {
+    margin: -1px 2px 2px 12px;
+}
+
+.marketplace-div a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 2px 12px 2px 12px;
+}
+
+.marketplace-button-container {
+    margin-top: 20px;
+}
+
+.marketplace-button-container a:nth-child(2) {
+    background: rgba(0, 0, 139, 0.301);
+}
+
+.marketplace-heading-row {
+    justify-content: space-between;
+}
+
+.marketplace-heading-row h3 {
+    margin-left: 10px;
+}
+
+.marketplace-heading-row a {
+    margin-top: 20px;
+}
