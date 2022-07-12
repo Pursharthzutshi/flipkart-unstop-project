@@ -1,0 +1,139 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: "Montserrat";
+}
+
+.page-container,ul,.membership-plans-container,.membership-plans-div,.membership-plans-div-top-row,.plans-row,.left-sidebar-top-div{
+    display: flex;
+}
+
+.page-container,.membership-plans-container,.membership-plans-div-top-row,.plans-row,.left-sidebar-top-div{
+    flex-direction: row;
+}
+
+ul,.membership-plans-div{
+    flex-direction: column;
+}
+
+.page-container{
+    gap:50px;
+    background: linear-gradient(to left,rgba(195, 174, 255, 0.151),rgba(16, 0, 43, 0.047));
+}
+
+.left-sidebar{
+    width: 10%;
+    height: 100vh;
+}
+
+nav{
+    position: fixed;
+    margin-top: -10px;
+    width: 10%;
+    height: 110vh;
+    background: linear-gradient(to left,rgb(15, 1, 55),rgba(29, 0, 43, 0.863));
+padding: 37px;
+}
+
+.left-sidebar-top-div{
+    gap:10px;
+}
+
+.left-sidebar-top-div img{
+width: 4rem;
+height: auto;
+margin-left: -20px;
+}
+
+.left-sidebar-top-div h4{
+    color:white;
+
+}
+
+.main-page{
+    padding-left: 20px;
+}
+
+ul{
+    padding-top:22px;
+    gap:30px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.main-page-heading{
+    margin-left: 30px;
+    color:rgb(91, 4, 158);
+}
+
+.main-page .line{
+    margin-left: 30px;
+    width: 100%;
+    height: .2rem;
+    background: rgb(91, 4, 158);
+}
+
+.membership-plans-container{
+    gap:120px;
+    margin-left: 30px;
+}
+
+.membership-plans-div{
+    margin-top: 20px;
+    width: 18rem;
+    box-shadow: .2px .2px 12px .2px lightgray;
+    border:3px solid rgb(15, 1, 55);
+    padding: 2px;
+    border-radius:8px;
+    
+}
+
+.membership-plans-div:hover{
+    transform: scale(1.04);
+    transition: .2s;
+    cursor: pointer;
+    background:rgba(75, 0, 85, 0.092) ;
+}
+
+.membership-plans-div-top-row{
+    background: rgb(48, 0, 85);
+    color: white;
+    justify-content: space-between;
+    padding:2px 20px 2px 20px;
+    border-radius:8px;
+
+}
+
+.membership-plans-div-top-row ion-icon{
+    font-size: 2rem;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+
+.plans-row{
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.plans-row ion-icon{
+    font-size: 1.7rem;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+.membership-button-container a{
+    padding: 2px 12px 2px 12px;
+    margin-top: 10px;
+    text-decoration: none;
+    border: 2px solid rgb(165, 165, 255);
+    background: linear-gradient(to left,rgb(50, 0, 108),rgb(71, 0, 151));
+    box-shadow: .2px .2px 3px .2px rgb(46, 0, 84);
+    margin-left: 10px;
+}

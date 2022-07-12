@@ -44,9 +44,20 @@ body {
 .marketplace-div {
     width: 13rem;
     height: 15rem;
-    background: rgb(0, 0, 58);
+    background: rgb(1, 1, 52);
     padding: 2px 2px 2px 32px;
+    border: 2px solid rgb(40, 105, 190);
+    border-radius:4px ;
+    
+}
+
+.marketplace-div:hover{
+    cursor: pointer;
+    transform:scale(1.04);
+    transition: .2s;
+    background: linear-gradient(rgb(33, 1, 52),rgb(1, 1, 52));
     border: 2px solid white;
+
 }
 
 .marketplace-div img {
